@@ -15,3 +15,28 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+
+
+// insomnia fill
+// {
+// 	"username": "RonBurgundy",
+// 	"email": "Rburgundy@channel4news.com",
+// 	"password": "jazzflute"
+// }
+
+// {
+// 	"title": "Baxter is the goodest boy",
+// 	"post_url": "channel4news.com",
+// 	"user_id": 1
+// }
+
+// {
+//     "user_id": 1,
+//     "post_id": 1
+// }
+
+// {
+//     "comment_text": "Great article!",
+//     "user_id": 1,
+//     "post_id": 1
+// }
